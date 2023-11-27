@@ -27,9 +27,9 @@ $ make build
 Provider Usage
 -----------------
 
-Please see the documentation at [NHN Cloud Terraform Provider documentation]().
+Please see the [NHN Cloud Terraform Provider documentation]() for how to use NHN Cloud Terraform Provider.
 
-Or you can also check how to use Terraform in the NHN Cloud user guide [here](https://docs.nhncloud.com/ko/Compute/Instance/ko/terraform-guide/).
+You can also check the [NHN Cloud user guide](https://docs.nhncloud.com/ko/Compute/Instance/ko/terraform-guide/).
 
 
 Developing the Provider
