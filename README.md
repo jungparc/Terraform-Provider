@@ -1,18 +1,44 @@
-# Extensions for Gophercloud: an NHN Cloud SDK for Go
+Terraform Provider for NHN Cloud
+============================
 
-Extensions for [Gophercloud](https://github.com/gophercloud/gophercloud) in NHN Cloud Go SDK.
+Requirements
+------------
 
-## How to install
+* [Terraform](https://www.terraform.io/downloads.html) 1.0.x
 
-Reference a Gophercloud package in your code:
+* [Go](https://golang.org/doc/install) 1.20 (to build the provider plugin)
 
-```go
-import "github.com/nhn/nhncloud.gophercloud"
+Building the Provider
+---------------------
+
+Clone the repository
+
+```sh
+$ git clone git@github.com:nhn/terraform-provider-nhncloud.git
 ```
 
-Then update your `go.mod`:
+Enter the provider directory and build the provider
 
-```shell
-go mod tidy
+```sh
+$ cd terraform-provider-nhncloud
+$ make build
 ```
 
+Provider Usage
+-----------------
+
+Please see the documentation at [NHN Cloud Terraform Provider documentation]().
+
+Or you can also check how to use Terraform in the NHN Cloud user guide [here](https://docs.nhncloud.com/ko/Compute/Instance/ko/terraform-guide/).
+
+
+Developing the Provider
+---------------------------
+
+If you wish to work on the provider, you'll first need [Go](https://golang.org) installed on your machine (version 1.20+ is *required*).
+
+To compile the provider, run `make build`. This will build the provider and put the provider binary in the current directory.
+
+```sh
+$ make build
+```
