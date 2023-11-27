@@ -8,7 +8,7 @@ Requirements
 
 * [Go](https://golang.org/doc/install) 1.20 (to build the provider plugin)
 
-Building the Provider
+Building the Provider //Building The Provider -> Building the Provider
 ---------------------
 
 Clone the repository
@@ -29,7 +29,7 @@ Provider Usage
 
 Please see the [NHN Cloud Terraform Provider documentation]() for how to use NHN Cloud Terraform Provider.
 
-You can also check the [NHN Cloud user guide](https://docs.nhncloud.com/ko/Compute/Instance/ko/terraform-guide/).
+You can also check the [NHN Cloud Terraform User Guide](https://docs.nhncloud.com/en/Compute/Instance/en/terraform-guide/).
 
 
 Developing the Provider
