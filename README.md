@@ -8,7 +8,7 @@ Requirements
 
 * [Go](https://golang.org/doc/install) 1.20 (to build the provider plugin)
 
-Building the Provider //Building The Provider -> Building the Provider
+Building the Provider
 ---------------------
 
 Clone the repository
