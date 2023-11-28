@@ -15,7 +15,7 @@ resource "nhncloud_lb_member_v2" "tf_member_01"{
 
 ## Argument Reference
 
-* `pool_id` - (Required) ID of pool including member to create. //원문 확인 필요
+* `pool_id` - (Required) The pool ID to which the member to create belongs.
 * `subnet_id` - (Required) The subnet ID of the member to create.
 * `address` - (Required) The IP address of the member to receive traffic from the load balancer.
 * `protocol_port` - (Required) The port of the member to receive traffic.
